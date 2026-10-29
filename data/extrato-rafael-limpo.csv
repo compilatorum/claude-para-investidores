@@ -1,0 +1,12 @@
+Corretora,Ticker,Nome,Tipo,Setor,Fator,Quantidade,Preco_Medio_R$,Preco_Atual_R$,Custo_Total_R$,Valor_Atual_R$,Retorno_Posicao_%,Peso_%
+XP,VALE3,Vale ON,Ação,Mineração / Siderurgia,Commodities metálicas (China),500,64.2,61.4,32100.0,30700.0,-4.36,10.23
+BTG,VALE3,Vale ON,Ação,Mineração / Siderurgia,Commodities metálicas (China),248,63.1,61.4,15648.8,15227.2,-2.69,5.08
+XP,ITUB4,Itaú Unibanco PN,Ação,Financeiro / Bancos,Juros Brasil / Crédito,1200,29.8,33.75,35760.0,40500.0,13.26,13.5
+XP,PETR4,Petrobras PN,Ação,Petróleo e Gás,Petróleo Brent / Risco Estatal,900,34.5,37.65,31050.0,33885.0,9.13,11.29
+BTG,WEGE3,WEG ON,Ação,Bens Industriais,Dólar / Capex Industrial Global,550,39.0,53.45,21450.0,29397.5,37.05,9.8
+XP,BOVA11,iShares Ibovespa ETF,ETF,ETF Índice Brasil,Ibovespa (54% Commodities + Bancos),215,122.0,128.4,26230.0,27606.0,5.25,9.2
+BTG,PRIO3,PRIO ON,Ação,Petróleo e Gás,Petróleo Brent / Execução Operacional,500,45.8,43.2,22900.0,21600.0,-5.68,7.2
+XP,BBAS3,Banco do Brasil ON,Ação,Financeiro / Bancos,Juros Brasil / Crédito Agro / Estatal,750,26.4,28.0,19800.0,21000.0,6.06,7.0
+BTG,RENT3,Localiza ON,Ação,Consumo Cíclico / Locação,Juros Domésticos (DI Longo) / Seminovos,400,54.0,43.5,21600.0,17400.0,-19.44,5.8
+BTG,RADL3,Raia Drogasil ON,Ação,Varejo Farmacêutico,Consumo Defensivo / Inflação,500,25.1,27.51,12550.0,13755.0,9.6,4.58
+XP,IVVB11,iShares S&P 500 ETF,ETF,ETF Internacional (EUA),S&P 500 + Dólar (USD/BRL),35,295.0,342.99,10325.0,48929.3,16.27,16.31

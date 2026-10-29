@@ -1,0 +1,46 @@
+{
+  "modelo_auditado": "DCF_RENT3_Herdado_v3.xlsx",
+  "empresa": "Localiza Rent a Car S.A. (RENT3)",
+  "status_alteracao": "READ_ONLY (Aguardando aprovação humana conforme regra 'Não altere nada antes de eu aprovar')",
+  "preco_alvo_original_brl": 64.8,
+  "preco_alvo_corrigido_brl": 49.2,
+  "distorcao_total_pct": -24.07,
+  "problemas_encontrados": [
+    {
+      "id": 1,
+      "categoria": "Quebra de Consistência Temporal de Fórmula",
+      "aba_celula": "Fluxo_Caixa!H18:J18 (Anos 2028E–2030E)",
+      "problema": "Nos anos 2026E–2027E (F18:G18), o Capex Líquido de Renovação de Frota é calculado como `=F12*Premissas!$C$9` (18,5% da Receita). A partir de 2028E (H18), a fórmula foi sobrescrita por `=G18*0.92`, reduzindo artificialmente a necessidade de caixa.",
+      "impacto_estimado_valor": "-R$ 6,40 por ação (-9,9% no Preço-Alvo)",
+      "correcao_sugerida": "Restaurar a fórmula `=H12*Premissas!$C$9` em `H18:J18` vinculada à frota operacional projetada.",
+      "severidade": "CRÍTICA"
+    },
+    {
+      "id": 2,
+      "categoria": "Valor Digitado Manualmente (Hardcode Oculto)",
+      "aba_celula": "Fluxo_Caixa!J24 (Variação de Capital de Giro no Ano Terminal 2030E)",
+      "problema": "A célula `J24` contém o número fixo digitado `450000` (positivo, gerando entrada de caixa no ano terminal, que depois é perpetuada), enquanto `F24:I24` usam `=-(F14-E14)*Premissas!$C$14` (consumo de giro conforme crescimento).",
+      "impacto_estimado_valor": "-R$ 3,85 por ação (-5,9% no Preço-Alvo)",
+      "correcao_sugerida": "Substituir o hardcode em `J24` por `=-(J14-I14)*Premissas!$C$14`.",
+      "severidade": "CRÍTICA"
+    },
+    {
+      "id": 3,
+      "categoria": "Incoerência no Cálculo do WACC",
+      "aba_celula": "WACC!C19 (Peso da Dívida Líquida no WACC)",
+      "problema": "O custo da dívida pós-IR (`Kd = 9,68%`) foi ponderado pelo valor contábil da dívida de 2023 (defasado em R$ 8,2 bi) e o Beta desalavancado não foi realavancado pela relação D/E atual (`WACC!C11` usa Beta fixo de `0,88`). WACC calculado na planilha: `11,15%` nominal vs. WACC corrigido: `12,40%`.",
+      "impacto_estimado_valor": "-R$ 3,20 por ação (-4,9% no Preço-Alvo)",
+      "correcao_sugerida": "Vincular `WACC!C15` a `Balanco!E32` (Dívida Bruta LTM atualizada) e aplicar `=WACC!C9*(1+(1-0.34)*(WACC!C15/WACC!C14))` em `WACC!C11`.",
+      "severidade": "ALTA"
+    },
+    {
+      "id": 4,
+      "categoria": "Premissa de Perpetuidade Incompatível com Reinvestimento",
+      "aba_celula": "Valuation!D28 (Valor Terminal — Crescimento na Perpetuidade g = 6,5%)",
+      "problema": "A perpetuidade assume crescimento nominal `g = 6,5%` a.a. em `Valuation!D26`, mas mantém a taxa de reinvestimento no fluxo terminal em apenas `22%` do NOPAT, o que exigiria um ROIC marginal perpétuo de `29,5%` (`g / Reinvestimento`), muito acima do ROIC histórico da companhia (`11,4%–15,0%`).",
+      "impacto_estimado_valor": "-R$ 2,15 por ação (-3,3% no Preço-Alvo)",
+      "correcao_sugerida": "Ajustar `g` em `Valuation!D26` para `4,5%` (IPCA Longo Prazo 3,5% + 1,0% real) e equalizar o fluxo livre na perpetuidade a `NOPAT_T * (1 - g / ROIC_terminal)`.",
+      "severidade": "ALTA"
+    }
+  ]
+}
