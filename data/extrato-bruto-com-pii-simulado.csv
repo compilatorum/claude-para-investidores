@@ -1,0 +1,12 @@
+Titular,CPF,Conta,Corretora,Ticker,Nome,Tipo,Setor,Fator,Quantidade,Preco_Medio_R$,Preco_Atual_R$
+Rafael Almeida Prado,312.498.761-04,XP-884920-1,XP,VALE3,Vale ON,Ação,Mineração / Siderurgia,Commodities metálicas (China),500,64.2,61.4
+Rafael Almeida Prado,312.498.761-04,BTG-0041928-9,BTG,VALE3,Vale ON,Ação,Mineração / Siderurgia,Commodities metálicas (China),248,63.1,61.4
+Rafael Almeida Prado,312.498.761-04,XP-884920-1,XP,ITUB4,Itaú Unibanco PN,Ação,Financeiro / Bancos,Juros Brasil / Crédito,1200,29.8,33.75
+Rafael Almeida Prado,312.498.761-04,XP-884920-1,XP,PETR4,Petrobras PN,Ação,Petróleo e Gás,Petróleo Brent / Risco Estatal,900,34.5,37.65
+Rafael Almeida Prado,312.498.761-04,BTG-0041928-9,BTG,WEGE3,WEG ON,Ação,Bens Industriais,Dólar / Capex Industrial Global,550,39.0,53.45
+Rafael Almeida Prado,312.498.761-04,XP-884920-1,XP,BOVA11,iShares Ibovespa ETF,ETF,ETF Índice Brasil,Ibovespa (54% Commodities + Bancos),215,122.0,128.4
+Rafael Almeida Prado,312.498.761-04,BTG-0041928-9,BTG,PRIO3,PRIO ON,Ação,Petróleo e Gás,Petróleo Brent / Execução Operacional,500,45.8,43.2
+Rafael Almeida Prado,312.498.761-04,XP-884920-1,XP,BBAS3,Banco do Brasil ON,Ação,Financeiro / Bancos,Juros Brasil / Crédito Agro / Estatal,750,26.4,28.0
+Rafael Almeida Prado,312.498.761-04,BTG-0041928-9,BTG,RENT3,Localiza ON,Ação,Consumo Cíclico / Locação,Juros Domésticos (DI Longo) / Seminovos,400,54.0,43.5
+Rafael Almeida Prado,312.498.761-04,BTG-0041928-9,BTG,RADL3,Raia Drogasil ON,Ação,Varejo Farmacêutico,Consumo Defensivo / Inflação,500,25.1,27.51
+Rafael Almeida Prado,312.498.761-04,XP-884920-1,XP,IVVB11,iShares S&P 500 ETF,ETF,ETF Internacional (EUA),S&P 500 + Dólar (USD/BRL),35,295.0,342.99

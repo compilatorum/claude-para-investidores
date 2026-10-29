@@ -1,0 +1,4 @@
+EMPRESA: Itaú Unibanco (ITUB4)
+DATA: 2026-10-28
+EVENTO: Aviso aos Acionistas — JCP Complementar
+RESUMO: Gera entrada imediata de caixa líquido para compor a Reserva de Oportunidade em CDI (hoje em 0%, meta 10% no perfil.md).

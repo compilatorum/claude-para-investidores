@@ -1,0 +1,36 @@
+{
+  "prompt_id": "A3",
+  "titulo": "A melhor argumentação contra a sua tese (3 Cenários + Short)",
+  "ativos_modelados": [
+    "VALE3",
+    "RENT3"
+  ],
+  "cenarios_3_anos_rent3": {
+    "pessimista": {
+      "cagr_receita": "4,0% a.a.",
+      "margem_ebitda": "58,0% (-250 bps)",
+      "capex_sobre_receita": "16,5%",
+      "condicao_macro_setor": "Selic média > 13,5% a.a. até 2028 e queda de 5% nos preços de seminovos.",
+      "kpi_trimestral": "Spread (ROIC - Kd) < 1,5 p.p. e FCF líquido negativo."
+    },
+    "base": {
+      "cagr_receita": "11,0% a.a.",
+      "margem_ebitda": "61,0% (estável)",
+      "capex_sobre_receita": "11,5%",
+      "condicao_macro_setor": "Fechamento gradual da curva DI para ~11% e normalização da depreciação por carro.",
+      "kpi_trimestral": "Spread (ROIC - Kd) entre 3,0 e 4,0 p.p. e desalavancagem de 0,3x/ano."
+    },
+    "otimista": {
+      "cagr_receita": "17,0% a.a.",
+      "margem_ebitda": "63,5% (+250 bps)",
+      "capex_sobre_receita": "9,5%",
+      "condicao_macro_setor": "Ciclo de queda forte de juros e ganho de market share em Gestão de Frotas Terceirizadas.",
+      "kpi_trimestral": "ROIC > 16,5% e FCF Yield > 10% a.a."
+    }
+  },
+  "argumentacao_analista_vendido_short": "O mercado avalia a locadora como uma compounder leve em ativos, mas na prática ela opera como um fundo alavancado de arbitragem de carros usados financiado a CDI+. Com CDI a 14,75%, 68% do EBIT vai para os credores (debenturistas) e qualquer erro de 2% na estimativa de revenda da frota de 630 mil veículos apaga um trimestre inteiro de lucro líquido.",
+  "gatilhos_mudanca_de_ideia": {
+    "para_sair_da_compra_stop_loss_fundamental": "Spread ROIC - Kd permanecer abaixo de 2,0 p.p. por mais 2 trimestres consecutivos.",
+    "para_cobrir_o_short_virar_comprador": "Geração de caixa livre após Capex de manutenção e juros superar R$ 1,5 bilhão/trimestre com Dívida Líquida/EBITDA < 2,2x."
+  }
+}

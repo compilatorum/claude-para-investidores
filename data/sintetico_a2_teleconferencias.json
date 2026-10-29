@@ -1,0 +1,35 @@
+{
+  "prompt_id": "A2",
+  "titulo": "O que mudou no discurso da gestão (2T26 vs. 3T26)",
+  "empresa": "Localiza Rent a Car S.A. (RENT3)",
+  "mudancas_discurso": [
+    {
+      "eixo": "Alocação de Capital e Alavancagem",
+      "discurso_anterior_2T26": "\"Nossa prioridade número um no segundo semestre é convergir a alavancagem para próximo de 2,0x Dívida Líquida/EBITDA com geração de caixa própria.\" (pág. 4)",
+      "discurso_atual_3T26": "\"Seguimos confortáveis com nossa estrutura de capital atual e focados em capturar a demanda corporativa em Gestão de Frotas.\" (pág. 5)",
+      "diagnostico": "Abandono implícito da meta de 2,0x no curto prazo diante da compra maior de carros no 3T."
+    },
+    {
+      "eixo": "Margem de Seminovos",
+      "discurso_anterior_2T26": "\"Esperamos estabilização da margem EBITDA de Seminovos entre 3% e 5% já no próximo trimestre.\" (pág. 7)",
+      "discurso_atual_3T26": "\"O mercado de usados segue seletivo, exigindo disciplina de precificação e giro mais rápido de lojas.\" (pág. 8)",
+      "diagnostico": "Troca de guidance numérico de margem por discurso qualitativo de giro."
+    }
+  ],
+  "temas_que_sumiram": [
+    "Meta quantitativa de conversão de EBITDA em Caixa Livre (>60%), mencionada 6 vezes no 2T26 e 0 vezes no 3T26.",
+    "Cronograma de captura de sinergias fiscais remanescentes da combinação de negócios."
+  ],
+  "respostas_evasivas_qa": [
+    {
+      "pergunta_analista": "Analista Sell-Side (pág. 15): \"Qual seria a depreciação por carro de equilíbrio caso o preço da tabela FIPE caia mais 3% no 4T?\"",
+      "resposta_gestao": "CFO (pág. 15): \"Nosso modelo proprietário de precificação ajusta dezenas de variáveis diariamente por região e modelo, então olhamos para o retorno global do ciclo do carro.\"",
+      "motivo_evasiva": "Não informou a sensibilidade matemática da depreciação para cada 1% de variação no seminovo."
+    }
+  ],
+  "tres_perguntas_para_ri": [
+    "1. Sob a mesma métrica divulgada no 2T26, qual foi o percentual exato de conversão de EBITDA em caixa livre neste 3T26?",
+    "2. Qual é a sensibilidade em R$/carro na linha de depreciação para cada 100 bps de queda adicional no preço médio de venda de seminovos?",
+    "3. A ausência de menção ao alvo de 2,0x Dívida Líquida/EBITDA indica que a companhia aceitará operar na faixa de 2,5x–2,7x durante 2027?"
+  ]
+}

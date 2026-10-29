@@ -1,0 +1,4 @@
+EMPRESA: Localiza (RENT3)
+DATA: 2026-10-25
+EVENTO: Emissão de Debêntures Simples para Alongamento
+RESUMO: Alonga vencimentos de 2026 para 2030, porém trava spread sobre CDI elevado enquanto ROIC está em 11,4% (monitorar gatilho de saída).

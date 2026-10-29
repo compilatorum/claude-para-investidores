@@ -1,0 +1,178 @@
+{
+  "executed_at": "2026-10-29T17:09:50.367953",
+  "total_assertions": 23,
+  "passed": 23,
+  "failed": 0,
+  "screenshots_captured": 23,
+  "gaps_closed": [
+    "G1: Simulador Antes/Depois do Extrato Bruto com PII (CPF/Conta) vs. Limpo LGPD na Aba P0",
+    "G2: Dupla Tabela da Fórmula Mágica de Greenblatt (Tabela 1 Original Sem Bancos vs. Tabela 2 Adaptada Com Bancos) na Aba P3",
+    "G3: Cobertura integral dos 10/10 ativos da carteira na Matriz Red Team da Aba P2",
+    "G4: Datasets sintéticos completos e interatividade de aprovação DCF (READ-ONLY -> APROVADO) para os Prompts A1, A2, A3, A4 e A5",
+    "G5: Inclusão dos 5 Critérios de Escolha (Aba M0-M1) e da Tabela Oficial de 10 Ativos com Códigos CVM e CNPJ (Aba P4)",
+    "G6: Filtro interativo de comunicados Cowork ('31 notícias. 5 importam.') e Suíte E2E Playwright com 22 asserções e screenshots"
+  ],
+  "steps": [
+    {
+      "step_id": "E2E-00",
+      "name": "Aba 00 · Início & Verificação de 17 Abas Unificadas (Modo v2.0)",
+      "status": "PASS",
+      "details": "Abas visíveis no Modo v2.0: 17/17 | KPI R$ 300.000 renderizado",
+      "screenshot": "screenshots/00_inicio_ecossistema_v2.png"
+    },
+    {
+      "step_id": "E2E-01",
+      "name": "Aba 01 · M0–M1 Arsenal de 6 IAs, 5 Critérios & Matriz de 12 Tarefas",
+      "status": "PASS",
+      "details": "Linhas da Matriz de Decisão: 12/12 + 5 Critérios de Escolha (Gap G5 fechado)",
+      "screenshot": "screenshots/01_m0_m1_arsenal_6_ias_matriz_12_tarefas.png"
+    },
+    {
+      "step_id": "E2E-02A",
+      "name": "Aba 02 · M2 Anatomia de 6 Partes (Estado Inicial)",
+      "status": "PASS",
+      "details": "Template de 6 partes com gatilho de entrevista pré-execução ativo",
+      "screenshot": "screenshots/02_m2_anatomia_6_partes_padrao.png"
+    },
+    {
+      "step_id": "E2E-02B",
+      "name": "Aba 02 · Simulação Sintética no Construtor de Prompts (6 Partes)",
+      "status": "PASS",
+      "details": "Prompt institucional regenerado dinamicamente em tempo real",
+      "screenshot": "screenshots/02b_m2_anatomia_6_partes_simulacao_sintetica.png"
+    },
+    {
+      "step_id": "E2E-03A",
+      "name": "Aba 03 · P0 Extrato Sanitizado LGPD (Depois do P0)",
+      "status": "PASS",
+      "details": "11 linhas em 2 corretoras (XP e BTG) sem colunas de CPF/Conta",
+      "screenshot": "screenshots/03_p0_extrato_limpo_lgpd.png"
+    },
+    {
+      "step_id": "E2E-03B",
+      "name": "Aba 03 · Simulação Antes do P0 (Extrato Bruto com PII — Gap G1 Fechado)",
+      "status": "PASS",
+      "details": "Colunas Titular, CPF (312.498.761-04) e Conta (XP/BTG) visíveis no modo Pré-P0",
+      "screenshot": "screenshots/03b_p0_extrato_bruto_com_pii_simulado.png"
+    },
+    {
+      "step_id": "E2E-04",
+      "name": "Aba 04 · P0b Pergunta Vaga & Alucinação de Preço VALE3",
+      "status": "PASS",
+      "details": "Contraste R$ 70–75 (memória) vs R$ 61,40 (real) + Caso Deloitte documentado",
+      "screenshot": "screenshots/04_p0b_sem_contexto_alucinacao_vale3.png"
+    },
+    {
+      "step_id": "E2E-05",
+      "name": "Aba 05 · P1 Raio-X, Look-Through BOVA11 (54,2%) & perfil.md",
+      "status": "PASS",
+      "details": "Decomposição oculta de BOVA11 e artefato perfil.md verificados",
+      "screenshot": "screenshots/05_p1_raio_x_lookthrough_bova11_perfil_md.png"
+    },
+    {
+      "step_id": "E2E-06",
+      "name": "Aba 06 · P2 Red Team Completo (10/10 Ativos Auditados — Gap G3 Fechado)",
+      "status": "PASS",
+      "details": "Matriz Tese-por-Tese cobrindo 10/10 ativos vs. CDI (14,75%) e IPCA+",
+      "screenshot": "screenshots/06_p2_red_team_10_ativos_completos.png"
+    },
+    {
+      "step_id": "E2E-07A",
+      "name": "Aba 07 · P3 Fórmula Mágica — Tabela 2 Adaptada com Bancos (8 Ações)",
+      "status": "PASS",
+      "details": "Tabela 2 renderizada com 8 ações (incluindo ITUB4 e BBAS3 via ROE e E/P)",
+      "screenshot": "screenshots/07_p3_formula_greenblatt_tab2_com_bancos.png"
+    },
+    {
+      "step_id": "E2E-07B",
+      "name": "Aba 07 · P3 Fórmula Mágica — Tabela 1 Original Sem Bancos (6 Ações — Gap G2 Fechado)",
+      "status": "PASS",
+      "details": "Tabela 1 pura de Greenblatt visível com 6 ações não-financeiras",
+      "screenshot": "screenshots/07b_p3_formula_greenblatt_tab1_sem_bancos.png"
+    },
+    {
+      "step_id": "E2E-08",
+      "name": "Aba 08 · Prompt A1 (ITR vs. Release de Resultados + Separação Fato/Inferência)",
+      "status": "PASS",
+      "details": "Auditoria sintética de ITR com página de origem e crédito não recorrente validada",
+      "screenshot": "screenshots/08_a1_itr_release_notas_explicativas.png"
+    },
+    {
+      "step_id": "E2E-09",
+      "name": "Aba 09 · Prompt A2 (Comparador de 2 Teleconferências + 3 Perguntas ao RI)",
+      "status": "PASS",
+      "details": "Mudança de discurso (2T26 vs 3T26), tema omitido (>60% FCF) e 3 perguntas ao RI verificados",
+      "screenshot": "screenshots/09_a2_comparador_teleconferencias_ri.png"
+    },
+    {
+      "step_id": "E2E-10",
+      "name": "Aba 10 · Prompt A3 (3 Cenários 3 Anos + Tese de Analista Vendido / Short)",
+      "status": "PASS",
+      "details": "Cenários Pessimista, Base e Otimista + Short Thesis + Gatilhos de saída verificados",
+      "screenshot": "screenshots/10_a3_tres_cenarios_e_analista_vendido_short.png"
+    },
+    {
+      "step_id": "E2E-11A",
+      "name": "Aba 11 · Prompt A4 Auditoria DCF no Excel (Trava READ-ONLY Ativa)",
+      "status": "PASS",
+      "details": "Status inicial: 'READ-ONLY (Trava Ativa)' | 4 erros celulares detectados (R$ 64,80 -> R$ 49,20)",
+      "screenshot": "screenshots/11_a4_auditoria_dcf_excel_readonly.png"
+    },
+    {
+      "step_id": "E2E-11B",
+      "name": "Aba 11 · Simulação de Aprovação Humana do Patch DCF (Gap G4 Fechado)",
+      "status": "PASS",
+      "details": "Status pós-aprovação humana: 'APROVADO & CORRIGIDO'",
+      "screenshot": "screenshots/11b_a4_auditoria_dcf_excel_aprovado.png"
+    },
+    {
+      "step_id": "E2E-12",
+      "name": "Aba 12 · P4 Hierarquia fontes.md em 3 Camadas + Tabela 10 Ativos CVM",
+      "status": "PASS",
+      "details": "Tabela oficial de RI e códigos CVM renderizada com 10/10 ativos (Gap G5 fechado)",
+      "screenshot": "screenshots/12_p4_fontes_md_3_camadas_codigos_cvm.png"
+    },
+    {
+      "step_id": "E2E-13",
+      "name": "Aba 13 · P5 Filtro de Ruído 48h (IMPORTA / ACOMPANHAR / RUÍDO)",
+      "status": "PASS",
+      "details": "Triagem booleana em 3 blocos com justificativa de descarte validada",
+      "screenshot": "screenshots/13_p5_filtro_48h_tres_perguntas.png"
+    },
+    {
+      "step_id": "E2E-14A",
+      "name": "Aba 14 · Prompts P6 & A5 (Radar Semanal + Pasta Local Cowork 'Fatos Relevantes')",
+      "status": "PASS",
+      "details": "8 comunicados locais cruzados com Carteira.xlsx no topo (SUZB3 fora da carteira no fim)",
+      "screenshot": "screenshots/14_p6_a5_radar_semanal_e_cowork_local.png"
+    },
+    {
+      "step_id": "E2E-14B",
+      "name": "Aba 14 · Filtro Interativo Cowork 'Somente IMPORTA (5)' (Gap G6 Fechado)",
+      "status": "PASS",
+      "details": "Filtro '31 notícias. 5 importam.' isolou exatamente 5/5 comunicados críticos",
+      "screenshot": "screenshots/14b_p6_a5_radar_filtrado_5_importam.png"
+    },
+    {
+      "step_id": "E2E-15",
+      "name": "Aba 15 · M4–M5 (6 Skills Nativas + 5 Customizadas + Conectores MCP)",
+      "status": "PASS",
+      "details": "10 Skills catalogadas + Conectores FactSet, CapIQ, PitchBook, Morningstar, Daloopa e BCB",
+      "screenshot": "screenshots/15_m4_m5_skills_financeiras_e_mcps.png"
+    },
+    {
+      "step_id": "E2E-16",
+      "name": "Aba 16 · M11 (10 Agentes Financeiros + 5 Regras LGPD/ANPD/APIMEC/CVM)",
+      "status": "PASS",
+      "details": "5/5 Regras Regulatórias + 10 Agentes Financeiros + Casos NBIM/Barclays/AIG",
+      "screenshot": "screenshots/16_m11_10_agentes_e_compliance_cvm_apimec.png"
+    },
+    {
+      "step_id": "E2E-17",
+      "name": "Alternador de Modo v1.0 · Masterclass (9 Abas Originais do Vídeo)",
+      "status": "PASS",
+      "details": "Abas visíveis no Modo v1.0: 9/9 (Início, P0, P0b, P1, P2, P3, P4, P5, P6)",
+      "screenshot": "screenshots/17_modo_v1_masterclass_9_abas_originais.png"
+    }
+  ]
+}

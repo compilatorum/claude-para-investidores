@@ -1,0 +1,4 @@
+EMPRESA: Vale (VALE3)
+DATA: 2026-10-26
+EVENTO: Movimentação Consolidada de Recompra (CVM 358)
+RESUMO: Reduz base acionária a <5x EV/EBITDA, mas o peso de 15,3% na carteira já viola o teto de 12% do perfil.md (vedado novo aporte).

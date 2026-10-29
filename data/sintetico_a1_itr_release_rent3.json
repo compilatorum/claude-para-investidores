@@ -1,0 +1,56 @@
+{
+  "prompt_id": "A1",
+  "titulo": "Do release ao que importa (Auditoria ITR vs. Release)",
+  "empresa": "Localiza Rent a Car S.A. (RENT3)",
+  "periodo": "3T26 (Sintético para Teste E2E)",
+  "documentos_entrada": [
+    "ITR_RENT3_3T26_CVM.pdf (84 páginas)",
+    "Release_Resultados_RENT3_3T26.pdf (28 páginas)"
+  ],
+  "top_5_pontos_longo_prazo": [
+    {
+      "item": 1,
+      "fato_extraido": "Receita líquida consolidada atingiu R$ 9,82 bilhões (+14,2% YoY), impulsionada pelo reajuste de diárias médias no Aluguel de Carros (+11,8% YoY).",
+      "pagina_origem": "ITR Demonstração do Resultado, pág. 6 | Release, pág. 4",
+      "inferencia_analitica": "A elasticidade-preço no segmento RAC segue favorável, permitindo repassar parte do custo financeiro maior."
+    },
+    {
+      "item": 2,
+      "fato_extraido": "Depreciação média anualizada por carro no RAC subiu para R$ 6.840/ano (vs. R$ 5.910 no 3T25).",
+      "pagina_origem": "ITR Nota Explicativa 11 (Imobilizado), pág. 42 | Release, pág. 14",
+      "inferencia_analitica": "A desvalorização da safra de veículos comprados no pós-pandemia ainda pressiona a margem EBIT por pelo menos mais 2 trimestres."
+    },
+    {
+      "item": 3,
+      "fato_extraido": "Dívida Líquida encerrou o trimestre em R$ 31,4 bilhões, equivalente a 2,68x EBITDA LTM (covenant máximo de 3,50x).",
+      "pagina_origem": "ITR Nota Explicativa 16 (Empréstimos e Debêntures), pág. 51",
+      "inferencia_analitica": "Há folga em relação ao covenant financeiro, mas o custo médio da dívida (CDI + 1,35%) consome 68% do EBIT operacional."
+    },
+    {
+      "item": 4,
+      "fato_extraido": "Fluxo de Caixa Operacional antes de Capex de crescimento foi de R$ 2,15 bilhões, mas após Capex líquido de renovação e juros pagos o FCF foi negativo em R$ 410 milhões.",
+      "pagina_origem": "ITR Demonstração dos Fluxos de Caixa (DFC), pág. 9",
+      "inferencia_analitica": "A companhia ainda não atingiu o ponto de equilíbrio de caixa livre líquido após juros na atual taxa Selic."
+    },
+    {
+      "item": 5,
+      "fato_extraido": "ROIC anualizado reportado no trimestre foi de 11,4% contra custo da dívida pós-IR (Kd) de 9,7% (spread de 1,7 p.p.).",
+      "pagina_origem": "Release de Resultados, pág. 19 | ITR Nota 22, pág. 63",
+      "inferencia_analitica": "O spread ROIC - Kd de 1,7 p.p. está abaixo da média histórica de 4,5–6,0 p.p. exigida pela tese de criação de valor."
+    }
+  ],
+  "novos_riscos_mencionados_1a_vez": [
+    {
+      "fato_extraido": "Inclusão de cláusula de risco sobre menor liquidez na revenda de veículos híbridos/elétricos seminovos e atraso na entrega de montadoras asiáticas.",
+      "pagina_origem": "ITR Nota Explicativa 24 (Gestão de Riscos), pág. 67",
+      "inferencia_analitica": "Pode exigir depreciação acelerada específica na sub-frota eletrificada em 2027."
+    }
+  ],
+  "divergencias_tom_release_vs_notas": [
+    {
+      "tom_release": "Destaca na página 1: 'Lucro Líquido contábil cresce 22% YoY com forte alavancagem operacional'.",
+      "realidade_notas": "A Nota 21 (Outras Receitas Operacionais, pág. 61) revela crédito tributário extemporâneo de PIS/Cofins de R$ 184 milhões e reversão de provisão cível de R$ 42 milhões.",
+      "impacto_recalculado": "Excluindo os R$ 226 milhões não recorrentes (líquidos de IR/CSLL de 34%), o Lucro Líquido recorrente caiu 3,8% YoY."
+    }
+  ]
+}

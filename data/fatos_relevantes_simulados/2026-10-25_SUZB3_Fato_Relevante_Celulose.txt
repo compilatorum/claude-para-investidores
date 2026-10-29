@@ -1,0 +1,4 @@
+EMPRESA: Suzano (Fora da Carteira Direta) (SUZB3)
+DATA: 2026-10-25
+EVENTO: Parada Programada de Manutenção
+RESUMO: Empresa fora do arquivo Carteira.xlsx (exposição marginal de 0,18% apenas via BOVA11).
