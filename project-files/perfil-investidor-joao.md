@@ -406,7 +406,7 @@ Toda informação de perfil, tese ou projeto deve ser marcada como uma destas cl
 
 - `CONFIRMADO_PELO_USUARIO`
 - `OBSERVADO_EM_DOCUMENTO`
-- `INFERIDO_COM ressalva`
+- `INFERIDO_COM_RESSALVA`
 - `HIPOTESE_EM_EXPLORACAO`
 - `EXPERIMENTO_EM_ANDAMENTO`
 - `ABANDONADO_OU_PAUSADO`
